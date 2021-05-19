@@ -1,0 +1,17 @@
+num=int(input())
+
+array=[]
+
+for values in range(0,num):
+    values=int(input())
+    array.append(values)
+
+
+array2=[]
+
+for idx in range(0,num):
+    value=array.index(idx)
+    array2.append(value)
+
+for ans in array2:
+    print(a)
