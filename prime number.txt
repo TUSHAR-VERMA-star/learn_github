@@ -1,0 +1,18 @@
+import math
+Num=int(input())
+
+factors=0
+SquareRoot=int(math.sqrt(Num))             		#finding squareroot of a number
+
+
+for values in range( 2 , SquareRoot+1 ):  		#loop from 2 to square root of a number
+
+    if Num % values==0:                   			# checking that values is a factor of Num or not
+
+        factors=factors+1                 			# if yes increment the value of factors
+
+
+
+if factors==0:       					#if the factors id zero then the number is prime 
+                     		
+    print("Prime")
